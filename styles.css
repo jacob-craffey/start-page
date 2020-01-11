@@ -1,0 +1,40 @@
+body {
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Hind', sans-serif;
+}
+
+.horizontal-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -200%);
+}
+
+#search-container {
+    text-align: center;
+}
+
+#time {
+    font-size: 64px;
+    color: white;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+
+#searchbar {
+    width: 700px;
+    height: 70px;
+    border-radius: 5px;
+    font-size: 36px;
+    padding: 10px;
+    font-family: 'Hind', sans-serif;
+}
